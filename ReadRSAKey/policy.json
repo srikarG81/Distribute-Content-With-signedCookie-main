@@ -1,0 +1,15 @@
+﻿{
+  "Statement": [
+    {
+      "Resource": "https://d28xdv8qytgo56.cloudfront.net/*",
+      "Condition": {
+        "DateLessThan": {
+          "AWS:EpochTime": 1681380955
+        },
+        "IpAddress": {
+          "aws:SourceIp": "0.0.0.0/0"
+        }
+      }
+    }
+  ]
+}

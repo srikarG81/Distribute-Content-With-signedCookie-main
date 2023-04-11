@@ -1,0 +1,4 @@
+﻿﻿{"Statement":[{"Resource":"RESOURCE","Condition":{           "IpAddress": {
+          "AWS:SourceIp": "IP_ADDRESS"
+        },
+  "DateLessThan":{"AWS:EpochTime":EXPIRES}}}]}
